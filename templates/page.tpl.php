@@ -88,8 +88,13 @@
      </div>
 </div>
 
-
-
+<div id="header_red">
+<div class="container-fluid">
+	<div class="row">
+		<img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/OU_Logo_White.png" alt="University of Oklahoma logo"  />
+	</div>
+</div>
+</div>
 
 
 
