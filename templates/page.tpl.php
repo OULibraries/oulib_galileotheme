@@ -89,11 +89,13 @@
 </div>
 
 <div id="header_red">
-<div class="container-fluid">
-	<div class="row">
-		<img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/OU_Logo_White.png" alt="University of Oklahoma logo"  />
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/OU_Logo_White.png" alt="University of Oklahoma logo"  />
+			</div>
+		</div>
 	</div>
-</div>
 </div>
 
 
@@ -160,7 +162,7 @@
  
 
 <div id="holder">
-<div class="container-fluid whitebg">
+<div class="container whitebg">
  
 
 
