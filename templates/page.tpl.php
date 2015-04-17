@@ -103,19 +103,19 @@
 <div id="top_regions">
 <div class="container-fluid">
 <div class="row">
+	
 	<?php if (!empty($page['logo'])): ?>
-		<div class="col-md-7 col-sm-12 col-xs-12">
-			<?php print render($page['logo']); ?>
+		<div class="col-md-3 col-sm-12 col-xs-12">
+			<?php print render($page['logo']); ?>	
 		</div>
 	<?php endif; ?>
 	
-
-	<?php if (!empty($page['discover'])): ?>
-		<div class="col-md-5 col-sm-12 col-xs-12">
-			<?php print render($page['discover']); ?>	
+	<?php if (!empty($page['tagline'])): ?>
+		<div class="col-md-9 col-sm-12 hidden-xs">
+			<?php print render($page['tagline']); ?>
 		</div>
 	<?php endif; ?>
-
+	
 </div>
 </div>
 </div>

@@ -29,3 +29,15 @@ html,body{
 .header_red{
 	background-color: #5a0000;
 }
+
+.region-logo{
+	background-color: #fff;
+	text-align: center;
+	padding: 20px;
+	width: 80%;
+	border-radius: 0px 0px 6px 6px;
+	box-shadow: 0px 4px 4px #a2a2a2; 
+	-moz-box-shadow: 0px 4px 4px #a2a2a2; 
+	-webkit-box-shadow: 0px 4px 4px #a2a2a2; 
+	-o-box-shadow: 0px 4px 4px #a2a2a2;
+}
