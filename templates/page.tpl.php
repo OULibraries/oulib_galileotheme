@@ -88,7 +88,7 @@
      </div>
 </div>
 
-<div id="header_red">
+<div class="header_red">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
