@@ -226,22 +226,10 @@
 	<div class="container-fluid">
 		<div class="row">
 			
-			<?php if (!empty($page['libfooter_first'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_first']); ?>
-				</div> <!-- /#libfooter_first -->
-			<?php endif; ?> 
-			
-			<?php if (!empty($page['libfooter_second'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_second']); ?>
-				</div> <!-- /#libfooter_first -->
-			<?php endif; ?> 
-			  
-			<?php if (!empty($page['libfooter_third'])): ?>
-				<div class="col-md-4">
-				  <?php print render($page['libfooter_third']); ?>
-				</div> <!-- /#libfooter_first -->
+			<?php if (!empty($page['libfooter_logos'])): ?>
+				<div class="col-md-12">
+				  <?php print render($page['libfooter_logos']); ?>
+				</div> <!-- /#libfooter_logos -->
 			<?php endif; ?> 
 		   
 		</div>

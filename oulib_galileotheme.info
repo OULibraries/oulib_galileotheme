@@ -20,9 +20,7 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 regions[libfooter]		= 'Library Footer'
-regions[libfooter_first]		= 'Library Footer First'
-regions[libfooter_second]		= 'Library Footer Second'
-regions[libfooter_third]		= 'Library Footer Third'
+regions[libfooter_logos]		= 'Footer Logos'
 regions[login]			= 'Login'
 
 ;;;;;;;;;;;;;;;;;;;;;
