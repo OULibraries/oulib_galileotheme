@@ -104,6 +104,12 @@
 <div class="container-fluid">
 <div class="row">
 	
+	<?php if (!empty($page['stars'])): ?>
+		<div class="col-md-1 hidden-sm hidden-xs">
+			<?php print render($page['stars']); ?>	
+		</div>
+	<?php endif; ?>
+	
 	<?php if (!empty($page['logo'])): ?>
 		<div class="col-md-3 col-sm-12 col-xs-12">
 			<?php print render($page['logo']); ?>	
@@ -111,7 +117,7 @@
 	<?php endif; ?>
 	
 	<?php if (!empty($page['tagline'])): ?>
-		<div class="col-md-9 col-sm-12 hidden-xs">
+		<div class="col-md-8 col-sm-12 hidden-xs">
 			<?php print render($page['tagline']); ?>
 		</div>
 	<?php endif; ?>

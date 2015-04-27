@@ -22,6 +22,7 @@ regions[page_bottom]    = 'Page bottom'
 regions[libfooter]		= 'Library Footer'
 regions[libfooter_logos]		= 'Footer Logos'
 regions[login]			= 'Login'
+regions[stars]			= 'stars'  
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
