@@ -165,6 +165,21 @@
  
 </div> <!-- /#menu -->
 
+<div id="galleries-banner">
+<div class="container-fluid">
+<div class="row">
+	
+	<?php if (!empty($page['galleries-banner'])): ?>
+		<div class="col-md-1 hidden-sm hidden-xs">
+			<?php print render($page['galleries-banner']); ?>	
+		</div>
+	<?php endif; ?>
+	
+</div>
+</div>
+</div>
+
+
  
 
 <div id="holder">
@@ -231,13 +246,14 @@
 <div class="libfooter">
 	<div class="container-fluid">
 		<div class="row">
+		
 			
 			<?php if (!empty($page['libfooter_logos'])): ?>
 				<div class="col-md-12">
 				  <?php print render($page['libfooter_logos']); ?>
 				</div> <!-- /#libfooter_logos -->
 			<?php endif; ?> 
-		   
+		
 		</div>
 	</div>
 </div>
