@@ -170,7 +170,7 @@
 <div class="row">
 	
 	<?php if (!empty($page['galleries-banner'])): ?>
-		<div class="col-md-1 hidden-sm hidden-xs">
+		<div class="col-md-12">
 			<?php print render($page['galleries-banner']); ?>	
 		</div>
 	<?php endif; ?>
