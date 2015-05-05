@@ -7,10 +7,13 @@ base theme = bootstrap
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
-
+regions[stars]			= 'stars'
 regions[logo]           = 'Logo'
 regions[tagline]        = 'Site Tagline'
 regions[header]         = 'Main Carousel'
+regions[galleries-banner-img]			= 'Gallery Banner Image'
+regions[galleries-banner-title]			= 'Gallery Banner Title'
+regions[galleries-banner-reflection]	= 'Gallery Banner reflection'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
@@ -18,12 +21,13 @@ regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
-regions[page_bottom]    = 'Page bottom'
-regions[libfooter]		= 'Library Footer'
-regions[libfooter_logos]		= 'Footer Logos'
+regions[page_bottom]     = 'Page bottom'
+regions[libfooter]		 = 'Library Footer'
+regions[libfooter_logos] = 'Footer Logos'
 regions[login]			= 'Login'
-regions[stars]			= 'stars'
-regions[galleries-banner]			= 'Banner for Galleries'  
+
+
+  
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets

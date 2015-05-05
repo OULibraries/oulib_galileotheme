@@ -169,9 +169,29 @@
 <div class="container-fluid">
 <div class="row">
 	
-	<?php if (!empty($page['galleries-banner'])): ?>
-		<div class="col-md-12">
-			<?php print render($page['galleries-banner']); ?>	
+	<?php if (!empty($page['galleries-banner-img'])): ?>
+		<div class="col-md-12 galleries-banner-img">
+			<?php print render($page['galleries-banner-img']); ?>	
+		</div>
+	<?php endif; ?>
+	
+</div>
+
+<div class="row">
+	
+	<?php if (!empty($page['galleries-banner-title'])): ?>
+		<div class="col-md-12 galleries-banner-title">
+			<?php print render($page['galleries-banner-title']); ?>	
+		</div>
+	<?php endif; ?>
+	
+</div>
+
+<div class="row">
+	
+	<?php if (!empty($page['galleries-banner-reflection'])): ?>
+		<div class="col-md-12 galleries-banner-reflection">
+			<?php print render($page['galleries-banner-reflection']); ?>	
 		</div>
 	<?php endif; ?>
 	
