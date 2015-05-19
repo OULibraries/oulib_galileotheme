@@ -85,8 +85,8 @@
 <div class="location_index"> 
 	<div class="row">
 		<div class="col-md-8 col-md-push-2 col-sm-push-2 col-xs-push-0  col-sm-6 col-xs-12"> 
-			<div class="location-title"><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></div> 
-			<div class="location_website"><?php print render($content['field_homepage']); ?></div>
+			<div class="location-title"><?php print $title_attributes; ?><?php print $title; ?></div> 
+			<div><a href="<?php print $node_url; ?>">Exhibit Info <span class="fa fa-external-link"></span></a></div>
 		</div>
 	
 		

@@ -290,17 +290,17 @@
 
                     <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
 
-                    <a href="#">University Libraries</a><br />
+                    <a href="http://libraries.ou.edu" target="_blank">University Libraries</a><br />
 
                     401 W. Brooks St<br />
 
                     Norman, OK 73019<br />
 
-                    (405) 325-4142
+                    (405) 325-2789
 
                 </div>
 
-                <div class="col-md-4" style="padding-bottom: 30px;">
+                <div class="col-md-4">
 
                     <span style="width: 50%; float: left;">
 
@@ -308,11 +308,9 @@
 
                             <li><a href="contact" title="Contact Us" target="_blank">Contact Us</a></li>
 
-                            <li><a href="http://libraries.ou.edu/jobs/default.aspx" title="Employment" target="_blank">Employment</a></li>
+                            <li><a href="about-this-site" title="About This Site" target="_blank">About</a></li>
 
-                            <li><a href="aboutsite" title="About This Site" target="_blank">About This Site</a></li>
-
-                            <li><a href="locations" title="Other Libraries" target="_blank">Other Locaions</a></li>
+                            <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
 
                         </ul>
 
@@ -322,7 +320,7 @@
 
                         <ul>
 
-                            <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
+                            
 
                             <li><a href="http://www.ou.edu/content/publicaffairs/WebPolicies/copyright.html" title="Copyright" target="_blank">Copyright</a></li>
 
@@ -340,7 +338,7 @@
 
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-3">
 
                     <div class="social">
 
@@ -359,6 +357,10 @@
                     </div>
 
                 </div>
+				
+				<div class="col-md-2">
+				<div class="anniversary-logo"><a href="http://www.ou.edu/liveon.html" target="_blank"><img src="https://galileo.webdev.lib.ou.edu/sites/all/themes/oulib_galileotheme/images/125_Years_Campaign_Logo_Final_white_small.png"></a></div>
+				</div>
 
             </div>
 

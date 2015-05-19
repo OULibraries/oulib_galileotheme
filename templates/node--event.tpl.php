@@ -80,21 +80,26 @@
  * @ingroup themeable
  */
 ?>
+
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 <div class="event_page">
   <div class="row">
-	<div class="col-md-3"><h1><div class="location-image-thumbnail"><?php print render($content['field_thumbnail']);?></div></h1>
-							<div class="event_location">Event Location</div><?php print render($content['field_location']); ?><?php print render($content['field_room']); ?>
+	<div class="col-md-3"><div class="location-image-thumbnail"><?php print render($content['field_thumbnail']);?>
+	<div class="register-link"><?php print render($content['field_registration']);?></div></div>
+							
 						</div>
-	<div class="col-md-9"> <h1><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1> 
+	<div class="col-md-9"> <h1><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1>
+<?php print render($content['field_location']); ?><?php print render($content['field_room']); ?>	
 							<h2><?php print render($content['field_date']); ?></h2>
-	<p><?php print render($content['field_description']); ?></p></div>
+	<p><?php print render($content['field_description']); ?></p><p><?php print flag_create_link('favorites', $node->nid); ?></p></div>
   </div>
   <div class="row">
 	<div class="col-md-12">
+		
 		<hr style="90%">
 		<div class="events-carousel-footer"><a href="/events"><span class="glyphicon glyphicon-list"></span> <b> View All Events</b></a></div>
+		<div class="event-disclaimer">* All events, times and locations are subject to change.</div>
 	</div>
   </div>
  </div>
