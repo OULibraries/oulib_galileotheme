@@ -9,6 +9,7 @@
    Navigation Bar
    Menus
    Events Carousel
+   About Page
    Homepage
    About Page
    Locations Index
@@ -560,6 +561,16 @@ h2.pane-event-carousel-date{
 
 
 
+ /**
+ * About Page
+ */
+
+#node-113 h4.panel-title{
+	font-family: 'Open Sans';
+}
+
+
+
 
  /**
  * Homepage
@@ -577,6 +588,13 @@ h2.pane-event-carousel-date{
 	margin-bottom: 20px;
 	padding: 20px;
 	min-height: 360px;
+}
+
+
+@media (max-width: 990px) {
+.homepage-login {
+	border-left: 0px;
+  }
 }
 
 .pane-user-login{
