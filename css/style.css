@@ -617,9 +617,9 @@ h2.pane-event-carousel-date{
 }
 
 .login-text, .registration-text{
-	padding: 7px;
+	padding: 0 7px 7px 0;
 	font-family: 'Open Sans';
-	font-size: .90em;
+	font-size: .80em;
 }
 
 .pane-user-login{
@@ -645,31 +645,37 @@ h2.pane-event-carousel-date{
 	margin-bottom: 30px;
 }
 
-.homepage-video .oembed {
-  text-align: center;
-  margin: -5px -5px 5px;
-  border-top: 1px solid #dedede;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-  line-height: normal;
-  padding: 5px 8px 3px;
-  color: #000;
-  text-shadow: 1px 1px 1px #fff;
-  font-weight: 700;
-  font-size: 10px;
-  font-family: 'Open Sans';
-  height: 415px;
-  width: 100%;
-  background-color: #2a2a2a;
-  margin-bottom: 10px;
+.homepage-video img{
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.homepage-video #node-105{
+	text-align: center;
+	margin: 15px 5px 15px 0;
+	border-top: 1px solid #dedede;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	line-height: normal;
+	padding: 5px 8px 3px;
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+	font-weight: 700;
+	font-size: 10px;
+	font-family: 'Open Sans';
+	height: 415px;
+	width: 100%;
+	background-color: #2a2a2a;
 }
 
 @media (max-width: 750px) {
-.homepage-video .oembed {
+.homepage-video #node-105 {
 	height: auto;
   }
 }
@@ -1015,7 +1021,13 @@ hr.location_index{
   }
 }
 
-.exhibit-title a{
+
+
+/**
+* - - - Exhibit - Comets
+*/
+
+.gallery-title-comets a{
 	font-size: 1.2em;
 	font-family: 'Lora';
 	color: #fff;
@@ -1023,21 +1035,631 @@ hr.location_index{
 	letter-spacing: 0.05em;
 }
 
-.exhibit-title a:hover{
+.gallery-title-comets a:hover{
 	color: #fff;
 	text-decoration: none;
 }
 
-.exhibit-title{
+.gallery-title-comets{
 	padding: 15px;
 	background-color: #888f85;
 }
 
-.exhibit-reflection{
+.gallery-reflections-comets{
 	padding-left: 15px;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	background-color: #4e564b;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Music
+*/
+
+.gallery-title-music a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-music a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-music{
+	padding: 15px;
+	background-color: #808080;
+}
+
+.gallery-reflections-music{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #292929;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Engineer
+*/
+
+.gallery-title-engineer a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-engineer a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-engineer{
+	padding: 15px;
+	background-color: #6a9fb1;
+}
+
+.gallery-reflections-engineer{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #4d717d;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+/**
+* - - - Exhibit - China
+*/
+
+.gallery-title-china a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-china a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-china{
+	padding: 15px;
+	background-color: #59395e;
+}
+
+.gallery-reflections-china{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #402944;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Physics
+*/
+
+.gallery-title-physics a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-physics a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-physics{
+	padding: 15px;
+	background-color: #6d6257;
+}
+
+.gallery-reflections-physics{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #26221e;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+/**
+* - - - Exhibit - Affair
+*/
+
+.gallery-title-affair a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-affair a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-affair{
+	padding: 15px;
+	background-color: #516788;
+}
+
+.gallery-reflections-affair{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #2e3a4d;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Observation
+*/
+
+.gallery-title-observation a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-observation a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-observation{
+	padding: 15px;
+	background-color: #32120a;
+}
+
+.gallery-reflections-observation{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #140704;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Americas
+*/
+
+.gallery-title-americas a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-americas a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-americas{
+	padding: 15px;
+	background-color: #7f814f;
+}
+
+.gallery-reflections-americas{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #4c4d2c;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Copernicus
+*/
+
+.gallery-title-copernicus a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-copernicus a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-copernicus{
+	padding: 15px;
+	background-color: #79858f;
+}
+
+.gallery-reflections-copernicus{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #29353f;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Experimentation
+*/
+
+.gallery-title-experimentation a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-experimentation a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-experimentation{
+	padding: 15px;
+	background-color: #66353d;
+}
+
+.gallery-reflections-experiment{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #370a12;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Kepler
+*/
+
+.gallery-title-kepler a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-kepler a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-kepler{
+	padding: 15px;
+	background-color: #7b7b7b;
+}
+
+.gallery-reflections-kepler{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #585858;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Space
+*/
+
+.gallery-title-space a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-space a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-space{
+	padding: 15px;
+	background-color: #20293b;
+}
+
+.gallery-reflections-space{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Oklahomans
+*/
+
+.gallery-title-oklahomans a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-oklahomans a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-oklahomans{
+	padding: 15px;
+	background-color: #283e65;
+}
+
+.gallery-reflections-oklahomans{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #0d1b34;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Health
+*/
+
+.gallery-title-health a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-health a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-health{
+	padding: 15px;
+	background-color: #582524;
+}
+
+.gallery-reflections-health{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #3f0500;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Sports
+*/
+
+.gallery-title-sports a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-sports a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-sports{
+	padding: 15px;
+	background-color: #003f3d;
+}
+
+.gallery-reflections-sports{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #0a302f;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Revolution
+*/
+
+.gallery-title-revolution a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-revolution a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-revolution{
+	padding: 15px;
+	background-color: #9f8fb6;
+}
+
+.gallery-reflections-revolution{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #373140;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Microscopes
+*/
+
+.gallery-title-microscopes a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-microscopes a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-microscopes{
+	padding: 15px;
+	background-color: #cfcfcf;
+}
+
+.gallery-reflections-microscopes{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #a5a5a5;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: 1em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
+/**
+* - - - Exhibit - Today
+*/
+
+.gallery-title-today a{
+	font-size: 1.2em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-today a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-today{
+	padding: 15px;
+	background-color: #a5986d;
+}
+
+.gallery-reflections-today{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #3a2e06;
 	color: #fff;
 	font-family: 'Lora';
 	font-size: 1em;
@@ -1140,6 +1762,8 @@ hr.location_index{
 	display: inline;
 	width: 500px;
 	margin-bottom: 10px;
+	font-size: .85em;
+	font-family: 'Open Sans';
 }
 
 label {
