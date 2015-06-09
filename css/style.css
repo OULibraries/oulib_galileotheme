@@ -273,15 +273,16 @@ div.view-footer{
 }
 
 /* responsive text queries */
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 1345px) {
   .navbar {
-    font-size: 90%;
+    font-size: 19px;
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 750px) {
   .navbar {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -342,7 +343,6 @@ div.view-footer{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#4c4d4d',GradientType=0 ); /* IE6-9 */
 }
 	
-
 .navbar-default .navbar-nav>li>a:hover {
     color: #ffffff;
 	border-bottom: 7px solid #aa4747;
