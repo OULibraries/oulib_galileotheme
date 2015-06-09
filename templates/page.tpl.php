@@ -306,7 +306,7 @@
 
                         <ul>
 
-                            <li><a href="contact" title="Contact Us" target="_blank">Contact Us</a></li>
+                            <li><a href="node/119" title="Contact Us" target="_blank">Contact Us</a></li>
 
                             <li><a href="about-this-site" title="About This Site" target="_blank">About</a></li>
 
