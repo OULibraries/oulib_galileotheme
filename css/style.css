@@ -50,7 +50,11 @@ html,body{
 }
 
 h1 {
+<<<<<<< HEAD
 	font-size: 1.4em;
+=======
+	font-size: 1.5em;
+>>>>>>> origin/master
 	margin-bottom: 10px;
 	font-family: 'Lora';
 	font-weight: 700;
@@ -98,7 +102,11 @@ h2.pane-title{
 }
 
 h2.single-item{
+<<<<<<< HEAD
 	font-size: 1.35em;
+=======
+	font-size: 1.4em;
+>>>>>>> origin/master
 	font-family: 'Lora';
 	padding-bottom: 9px;
 	border-bottom: 1px solid #eee;
@@ -1744,6 +1752,7 @@ hr.location_index{
 	margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 .views-field-field-book-cover img{
     box-shadow: 3px 3px 4px #b5b5b5;
 	margin-bottom: 10px;
@@ -1795,6 +1804,8 @@ hr.location_index{
 	font-size:16px;
 }
 
+=======
+>>>>>>> origin/master
 
 
 
