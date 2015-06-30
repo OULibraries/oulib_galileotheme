@@ -85,12 +85,12 @@
 <div>
   <div class="row">
 	<div class="col-md-6 col-sm-6 col-xs-6">
-		<div class="exhibit-guide-image"><?php print render($content['field_thumbnail']); ?></div>
+		<div class="exhibit-guide-image"><?php print render($content['field_book_cover']); ?></div>
 	</div>
 	<div class="col-md-6 col-sm-6 col-xs-6">
 		<div class="exhibit-guide-format"><h3>Format</h3>
-		<li><?php print render($content['field_link']); ?></li>
-		<li><?php print render($content['field_guide_pdf']); ?></li>
+		<li><?php print render($content['field_itunes_link']); ?></li>
+		<li><?php print render($content['field_pdf_link']); ?></li>
 		</div>
 	</div>
   </div>

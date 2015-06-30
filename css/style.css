@@ -58,6 +58,7 @@ h1 {
 	text-transform: uppercase;
 	border-bottom: 10px solid #626262;
 }
+
 h1.gallery-title {
 	font-size: 1.4em;
 	margin-bottom: 10px;
@@ -1755,6 +1756,9 @@ hr.location_index{
     box-shadow: 3px 3px 4px #b5b5b5;
 	margin-bottom: 10px;
 }
+
+
+
 
 /* Social Media Sharing */
 
