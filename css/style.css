@@ -4,6 +4,7 @@
    Table of Contents
    - - - - - - - - -
    General Styles
+   Flags
    Header Styles
    Main Carousel
    Navigation Bar
@@ -19,6 +20,7 @@
    Exhibit Index
    Exhibit Pages
    Books
+   Sections
    Libfooter (Logos)
    Global Footer
    Web Form
@@ -49,7 +51,7 @@ html,body{
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin-bottom: 10px;
 	font-family: 'Lora';
 	font-weight: 700;
@@ -57,7 +59,7 @@ h1 {
 	border-bottom: 10px solid #626262;
 }
 h1.gallery-title {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin-bottom: 10px;
 	font-family: 'Lora';
 	font-weight: 700;
@@ -73,7 +75,7 @@ h1.page-header {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.35em;
 	margin-bottom: 10px;
 	font-family: 'Lora';
 	font-weight: 700;
@@ -97,8 +99,9 @@ h2.pane-title{
 }
 
 h2.single-item{
-	font-size: 1.4em;
+	font-size: 1.35em;
 	font-family: 'Lora';
+	font-style: italic;
 	padding-bottom: 9px;
 	border-bottom: 1px solid #eee;
 }
@@ -152,6 +155,18 @@ div.view-footer{
 	padding-right: 5px; 
 	padding-left: 5px; 
 	font-family: 'Lora'; 
+}
+
+
+
+
+ /**
+ * Flags
+ */
+ 
+.flag-wrapper{
+	font-family: 'Open Sans';
+	font-weight: bold;
 }
 
 
@@ -281,9 +296,37 @@ div.view-footer{
 
 /* responsive text queries */
 
+@media screen and (max-width: 1400px) {
+  .navbar {
+    font-size: 19px;
+  }
+}
+
 @media screen and (max-width: 1345px) {
   .navbar {
     font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .navbar {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .navbar {
+    font-size: 16px;
+  }
+  
+  .nav li a {
+	padding:10px 10px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .navbar {
+    font-size: 14px;
   }
 }
 
@@ -518,8 +561,8 @@ ul.menu.nav{
 
 .pane-event-carousel-title a{
 	font-weight: bold;
-	font-family: 'Open Sans';
-	letter-spacing: .010em;
+	font-family: 'Lora';
+	letter-spacing: .011em;
 }
 
 .pane-event-carousel-title a:hover{
@@ -892,19 +935,12 @@ hr.location_index{
 	display: inline-block;
 }
 
-.exhibit-index-room a{
-	color: #fff;
+.exhibit-index-room{
+	color: #000;
 	font-family: 'Open Sans';
 	font-size: .75em;
-	background-color: #595959;
-	border-radius: 5px;
 	padding: 6px;
-}
-
-.exhibit-index-room a:hover{
-	background-color: #fff;
-	color: #595959;
-	text-decoration: none;
+	font-weight: bold;
 }
 
 
@@ -924,14 +960,24 @@ hr.location_index{
 	margin-bottom: 10px;
 }
 
-.exhibit-map, .exhibit-guide{ /* Background for Location info, Gallery Guide, Highlights */
+.exhibit-map{ /* Background for Location info, Gallery Guide, Highlights */
 	padding: 20px;
 	margin-bottom: 25px;
 	border: 1px solid #cecece;
 	border-radius: 4px;
 	box-shadow: 1px 1px 2px #e3e3e3;
 	background: #fff;
-	min-height:425px;
+	min-height: 425px;
+}
+
+.exhibit-guides{
+	padding: 20px;
+	margin-bottom: 25px;
+	border: 1px solid #cecece;
+	border-radius: 4px;
+	box-shadow: 1px 1px 2px #e3e3e3;
+	background: #fff;
+	min-height: 450px;
 }
 
 .exhibit-highlights{
@@ -941,7 +987,7 @@ hr.location_index{
 	border-radius: 4px;
 	box-shadow: 1px 1px 2px #e3e3e3;
 	background: #fff;
-	min-height:425px;
+	min-height: 425px;
 }
 
 .exhibit-highlights-citation{
@@ -1705,6 +1751,64 @@ hr.location_index{
 	margin-bottom: 15px;
 }
 
+.views-field-field-book-cover img{
+    box-shadow: 3px 3px 4px #b5b5b5;
+	margin-bottom: 10px;
+}
+
+/* Social Media Sharing */
+
+.st_pinterest_custom{
+	width: 28px;
+	height: 28px;
+	float:left;
+	padding-right: 2px;
+	background-image: url('https://galileo.webdev.lib.ou.edu/sites/all/themes/oulib_galileotheme/images/b_pintrest.PNG');
+}
+
+.st_facebook_custom{
+	width: 28px;
+	height: 28px;
+	float:left;
+	padding-right: 2px;
+	background-image: url('https://galileo.webdev.lib.ou.edu/sites/all/themes/oulib_galileotheme/images/b_facebook.PNG');
+}
+
+.st_twitter_custom{
+	width: 28px;
+	height: 28px;
+	float:left;
+	padding-right: 2px;
+	background-image: url('https://galileo.webdev.lib.ou.edu/sites/all/themes/oulib_galileotheme/images/b_twitter.PNG');
+}
+
+.share{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: .85em;
+	color: #6b2d2d;
+	margin-right: 10px;
+	float:left;
+	margin-bottom: 15px;
+}
+
+.add-favorites{
+	font-family: 'Open Sans';
+	font-weight: bold;
+}
+
+
+
+
+ /**
+ * Sections
+ */
+
+.index-title p{
+	font-family: Garamond, Georgia, serif;
+	font-size: .90em;
+}
+
 
 
 
@@ -1785,9 +1889,17 @@ hr.location_index{
 * Web Form
 */
 
-.form-control, .email {
+.form-control, .email{
 	display: inline;
 	width: 500px;
+	margin-bottom: 10px;
+	font-size: .85em;
+	font-family: 'Open Sans';
+}
+
+input.form-text, select.form-select{
+	display: inline;
+	width: 100%;
 	margin-bottom: 10px;
 	font-size: .85em;
 	font-family: 'Open Sans';
@@ -1798,6 +1910,12 @@ label {
 }
 
 button.webform-submit{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+button.edit-submit-exhibit{
 	font-family: 'Open Sans';
 	font-weight: bold;
 	margin-top: 5px;
