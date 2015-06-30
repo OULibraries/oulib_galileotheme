@@ -165,9 +165,10 @@ div.view-footer{
  * Flags
  */
  
-.flag-wrapper{
+.flag-wrapper, .flag-add-to-favorites{
 	font-family: 'Open Sans';
 	font-weight: bold;
+	font-size: .80em;
 }
 
 
@@ -531,6 +532,23 @@ ul.menu.nav{
 	width: 1em;
     margin: 0 -.5em;
 }
+
+.pane-menu-menu-about li:before{
+	content: url('https://galileo.webdev.lib.ou.edu/sites/all/themes/oulib_galileotheme/images/bullet_black.png');
+	display: inline-block;
+	float: left;
+	width: 1em;
+    margin: 0 -.5em;
+}
+
+.pane-menu-menu-my-tools li:before{
+	content: url('https://galileo.webdev.lib.ou.edu/sites/all/themes/oulib_galileotheme/images/bullet_black.png');
+	display: inline-block;
+	float: left;
+	width: 1em;
+    margin: 0 -.5em;
+}
+
 
 
 
@@ -1725,6 +1743,77 @@ hr.location_index{
 
 
 
+/**
+* - - - Exhibit - Science on a Sphere
+*/
+
+.gallery-title-sphere a{
+	font-size: 1.1em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-sphere a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-sphere{
+	padding: 15px;
+	background-color: #729993;
+}
+
+.gallery-reflections-sphere{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #54716c;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: .75em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+/**
+* - - - Exhibit - Quests for Other Worlds
+*/
+
+.gallery-title-worlds a{
+	font-size: 1.1em;
+	font-family: 'Lora';
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.gallery-title-worlds a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery-title-worlds{
+	padding: 15px;
+	background-color: #353535;
+}
+
+.gallery-reflections-worlds{
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #242222;
+	color: #fff;
+	font-family: 'Lora';
+	font-size: .75em;
+	letter-spacing: 0.15em;
+	margin-bottom: 20px;
+}
+
+
+
 
 /**
 * Books
@@ -1799,6 +1888,7 @@ hr.location_index{
 .add-favorites{
 	font-family: 'Open Sans';
 	font-weight: bold;
+	font-size: .80em;
 }
 
 
@@ -1830,7 +1920,7 @@ hr.location_index{
 	background: linear-gradient(to bottom, #ededed 0%,#f6f6f6 33%,#ffffff 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 	text-align: center;
-	font-size: .6em;
+	font-size: .65em;
 	font-family: 'Open Sans';
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s linear;
@@ -1842,7 +1932,7 @@ hr.location_index{
 
 .libfooter a{
     color: #414141;
-	padding: 5px;
+	padding: 6px;
 	border-radius: 5px;
 	background-color: transparent;
 	-webkit-transition: all 0.3s linear;
