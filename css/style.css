@@ -158,6 +158,11 @@ div.view-footer{
 	font-family: 'Lora'; 
 }
 
+.btn{
+	font-family: 'Open Sans';
+	font-weight: bold;
+}
+
 
 
 
@@ -595,9 +600,47 @@ h2.pane-event-carousel-date{
 	font-size: 1.85em;	
 }
 
-.owl-theme .owl-controls .owl-buttons div {
+#owl-carousel-block10 .owl-theme .owl-controls .owl-buttons .owl-prev .owl-next div {
 	color: #fff;
 	background: #5f5f5f;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#owl-carousel-block10 .owl-prev{
+	color: #fff;
+	background: #5f5f5f;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#owl-carousel-block10 .owl-next{
+	color: #fff;
+	background: #5f5f5f;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#owl-carousel-attachment-111  .owl-prev{
+	color: #fff;
+	background: #5f5f5f;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#owl-carousel-attachment-111  .owl-next{
+	color: #fff;
+	background: #5f5f5f;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.owl-prev, .owl-next{
 	font-family: 'Open Sans';
 	font-weight: bold;
 }
@@ -605,7 +648,7 @@ h2.pane-event-carousel-date{
 .events-carousel-footer{
 	background-color: #fff;
 	font-family: 'Open Sans';
-	font-size: .75em;
+	font-size: .95em;
 	border-radius: 5px;
 	border: 0px solid #cecece;
 	text-align: center;
@@ -638,6 +681,34 @@ h2.pane-event-carousel-date{
 
 #node-113 h4.panel-title{
 	font-family: 'Open Sans';
+}
+
+.about-video #node-2116{
+	text-align: center;
+	margin: 15px 5px 15px 0;
+	border-top: 1px solid #dedede;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	line-height: normal;
+	padding: 5px 8px 3px;
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+	font-weight: 700;
+	font-size: 10px;
+	font-family: 'Open Sans';
+	height: 325px;
+	width: 100%;
+	background-color: #2a2a2a;
+}
+
+@media (max-width: 750px) {
+.about-video #node-2116 {
+	height: auto;
+  }
 }
 
 
@@ -1957,6 +2028,10 @@ hr.location_index{
 	text-align: center:
 }
 
+img.accent{
+	margin-bottom: 15px;
+}
+
 
 
 
@@ -1997,6 +2072,7 @@ input.form-text, select.form-select{
 	margin-bottom: 10px;
 	font-size: .85em;
 	font-family: 'Open Sans';
+	height: auto;
 }
 
 label {
