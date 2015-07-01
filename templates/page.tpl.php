@@ -306,9 +306,9 @@
 
                         <ul>
 
-                            <li><a href="node/119" title="Contact Us" target="_blank">Contact Us</a></li>
+                            <li><a href="general-contact" title="Contact Us" target="_blank">Contact</a></li>
 
-                            <li><a href="about-this-site" title="About This Site" target="_blank">About</a></li>
+                            <li><a href="about-this-site" title="About This Site" target="_blank">About this Site</a></li>
 
                             <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
 
