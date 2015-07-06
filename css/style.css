@@ -1978,8 +1978,13 @@ hr.location_index{
 .index-title p{
 	font-family: Garamond, Georgia, serif;
 	font-size: .90em;
+	font-style: normal;
 }
 
+.index-title{
+	font-family: Garamond, Georgia, serif;
+	font-style: italic;
+}
 
 
 
