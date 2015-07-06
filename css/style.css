@@ -1917,6 +1917,12 @@ hr.location_index{
 	margin-bottom: 10px;
 }
 
+@media (max-width: 750px) {
+.bookcover-mobile{
+	display: none;
+  }
+}
+
 
 
 
