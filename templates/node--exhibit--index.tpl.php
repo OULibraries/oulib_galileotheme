@@ -91,7 +91,8 @@
 		</div>
 		
 		<div class="col-md-10 col-sm-10 col-xs-12"> 
-			<div class="location-title"><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></div> 
+			<div class="location-title"><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></div>
+			<div><small><?php print render($content['field_description']); ?></small></div>
 			<div class="exhibit-index-description"><?php print render($content['field_description']); ?></div>
 			<div class="exhibit-index-location" style="padding:8px 8px 0px 0px;"><?php print render($content['field_location']); ?></div><div class="exhibit-index-room" style="padding:8px 0px 0px 0px;"><?php print render($content['field_room']); ?></div>
 		</div>
