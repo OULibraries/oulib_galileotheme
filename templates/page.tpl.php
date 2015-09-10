@@ -353,7 +353,7 @@
                             <li><a href="http://pinterest.com/ouhoscurator/ou-hos-collections" class="pinterest" title="pinterest" target="_blank"></a></li>
 
                         </ul>
-
+						<div style="text-align:center;"><strong><p>#GalileosWorld</p><strong></div>
                     </div>
 
                 </div>
