@@ -1057,7 +1057,7 @@ hr.location_index{
 	border-radius: 4px;
 	box-shadow: 1px 1px 2px #e3e3e3;
 	background: #fff;
-	min-height: 425px;
+	min-height: 485px;
 }
 
 .exhibit-guides{
@@ -1067,7 +1067,7 @@ hr.location_index{
 	border-radius: 4px;
 	box-shadow: 1px 1px 2px #e3e3e3;
 	background: #fff;
-	min-height: 450px;
+	min-height: 485px;
 }
 
 .exhibit-highlights{
@@ -1077,7 +1077,7 @@ hr.location_index{
 	border-radius: 4px;
 	box-shadow: 1px 1px 2px #e3e3e3;
 	background: #fff;
-	min-height: 425px;
+	min-height: 485px;
 }
 
 .exhibit-highlights-citation{
@@ -1153,6 +1153,7 @@ hr.location_index{
   width: 100%;
   background-color: #2a2a2a;
   margin-bottom: 10px;
+  height: 485px;
 }
 
 .oembed  .oembed-title{
@@ -2072,7 +2073,7 @@ img.accent{
 	display: inline;
 	width: 500px;
 	margin-bottom: 10px;
-	font-size: .85em;
+	font-size: 1em;
 	font-family: 'Open Sans';
 }
 
@@ -2080,7 +2081,7 @@ input.form-text, select.form-select{
 	display: inline;
 	width: 100%;
 	margin-bottom: 10px;
-	font-size: .85em;
+	font-size: 1em;
 	font-family: 'Open Sans';
 	height: auto;
 }
@@ -2099,4 +2100,8 @@ button.edit-submit-exhibit{
 	font-family: 'Open Sans';
 	font-weight: bold;
 	margin-top: 5px;
+}
+
+.tooltip{
+	font-family: 'Open Sans';
 }
