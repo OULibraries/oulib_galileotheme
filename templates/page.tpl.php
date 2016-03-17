@@ -92,7 +92,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-				<img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/OU_Logo_White.png" alt="University of Oklahoma logo"  />
+				<a href="https://libraries.ou.edu/"><img src="/sites/all/themes/oulib_galileotheme/images/ou_lib_logo.png" alt="OU Libraries logo"></a>
 			</div>
 		</div>
 	</div>
