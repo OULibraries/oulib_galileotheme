@@ -90,7 +90,7 @@
 	
 	<div class="col-md-9"> <h1><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1> 
 	<div class="event_location_name"><?php print render($content['field_location']); ?><?php print render($content['field_room']); ?></div>
-							<h2><?php print render($content['field_date']); ?></h2>
+							<b><?php print render($content['field_date']); ?></b>
 	<p><?php print render($content['field_description']); ?></p>
 	<p><?php print flag_create_link('favorites', $node->nid); ?></p></div>
   </div>
