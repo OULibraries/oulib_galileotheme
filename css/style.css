@@ -764,6 +764,14 @@ h2.pane-event-carousel-date{
 	font-size: .90em;
 }
 
+.homepage-card-title{
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Lora';
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+
 
 
 
@@ -785,8 +793,8 @@ h2.pane-event-carousel-date{
 }
 
 hr.location_index{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     border: 0;
     border-top: 10px solid #eee;
 }

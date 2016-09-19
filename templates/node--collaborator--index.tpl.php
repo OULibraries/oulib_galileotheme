@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Default theme implementation to display a node.
@@ -81,21 +82,20 @@
 ?>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<div class="row">
-	<div class="col-md-12">
-	<h1><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1>
+<div class="location_index"> 
+	<div class="row">
+		<div class="col-md-8 col-md-push-2 col-sm-push-2 col-xs-push-0  col-sm-6 col-xs-12"> 
+			<div class="location-title"><?php print $title_attributes; ?><?php print $title; ?></div> 
+			<div><a href="<?php print $node_url; ?>">Collaborator Info <span class="fa fa-external-link"></span></a></div>
+		</div>
+		
+		<div class="col-md-2 col-md-pull-8 col-sm-pull-6 col-xs-pull-0 col-sm-2 col-xs-4">
+			<div class="location-image-thumbnail"><a href="<?php print $node_url; ?>"><?php print render($content['field_thumbnail']);?></a></div>
+		</div>
+		
 	</div>
-  <div class="row">
-	<div class="col-md-3"><div class="location-image-thumbnail"><?php print render($content['field_thumbnail']);?>
-	<h3><?php print render($content['field_homepage']); ?></h3>
-	</div>
-  </div>
-	
-	<div class="col-md-9"> 
-	<p><?php print render($content['field_description']); ?></p></div>
-  </div>
-  
- </div>
+	<hr class="locations_index">
+</div>
   
 
 
@@ -104,6 +104,8 @@
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
+	  hide($content['field_description']);
+	  hide($content['field_homepage']);
       print render($content);
     ?>
   </div>
