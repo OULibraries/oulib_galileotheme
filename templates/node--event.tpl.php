@@ -85,14 +85,18 @@
 
 <div class="event_page">
   <div class="row">
-	<div class="col-md-3"><div class="location-image-thumbnail"><?php print render($content['field_thumbnail']);?>
-	<div class="register-link"><?php print render($content['field_registration']);?></div></div>
+	<div class="col-md-3">
+		<div class="location-image-thumbnail"><?php print render($content['field_thumbnail']);?>
+		<div class="register-link"><?php print render($content['field_registration']);?></div></div>
 							
 						</div>
-	<div class="col-md-9"> <h1><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1>
-<?php print render($content['field_location']); ?><?php print render($content['field_room']); ?>	
-							<b><?php print render($content['field_date']); ?></b>
-	<p><?php print render($content['field_description']); ?></p><p><?php print flag_create_link('favorites', $node->nid); ?></p></div>
+	<div class="col-md-9"> 
+		<h1><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1>
+		<?php print render($content['field_location']); ?>
+		<?php print render($content['field_room']); ?>	
+		<b><?php print render($content['field_date']); ?></b>
+		<p><?php print render($content['field_description']); ?></p>
+	</div>
   </div>
   <div class="row">
 	<div class="col-md-12">
