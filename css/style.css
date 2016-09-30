@@ -1067,10 +1067,15 @@ hr.location_index{
 }
 
 .exhibit-video{
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    background-color: #2a2a2a;
+    margin-bottom: 10px;
 	height: 370px;
 }
 
-.oembed {
+.oembed{
     text-align: center;
     margin: -5px -5px 5px;
     border-top: 1px solid #dedede;
