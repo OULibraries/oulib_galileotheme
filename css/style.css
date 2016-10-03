@@ -2041,14 +2041,10 @@ button.edit-submit-exhibit{
 }
 
 .paragraphs_section_header{
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    color: #fff;
-    background-color: #ababab;
-    border-radius: 5px 5px 5px;
-    padding: 5px;
-    font-size: 1.5em;
+    font-size: 1.35em;
+	margin-bottom: 10px;
+	font-family: 'Lora';
+	font-weight: 700;
 }
 
 .paragraph_bundle_featured{
@@ -2120,4 +2116,3 @@ button.edit-submit-exhibit{
 	padding: 25px;
 	box-shadow: 1px 1px 2px #e3e3e3;
 }
- 
