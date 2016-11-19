@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Default theme implementation to display a node.
@@ -81,21 +82,25 @@
 ?>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<div class="row">
-	<div class="col-md-12">
-	<h1><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1>
-	</div>
-  <div class="row">
-	<div class="col-md-3"><div class="location-image-thumbnail"><?php print render($content['field_thumbnail']);?>
-	<h3><?php print render($content['field_homepage']); ?></h3>
-	</div>
-  </div>
+
+<div class="location_index"> 
+	<div class="row">
+		
+		<div class="col-md-2 col-sm-2 hidden-xs">
+			<div class="location-image-thumbnail"><a href="<?php print $node_url; ?>"><?php print render($content['field_exhibit_thumbnail']);?></a></div>
+		</div>
+		
+		<div class="col-md-10 col-sm-10 col-xs-12"> 
+			<div class="location-title"><?php print $title_attributes; ?><a href="<?php print $node_url; ?>"><?php print $title; ?></a></div>
+			<div><small><strong><?php print render($content['field_open_dates']); ?></strong></small></div>
+			<div class="exhibit-index-description"><?php print render($content['field_description']); ?></div>
+			<div class="exhibit-index-location" style="padding:8px 8px 0px 0px;"><?php print render($content['field_location']); ?></div><div class="exhibit-index-room" style="padding:8px 0px 0px 0px;"><?php print render($content['field_room']); ?></div>
+		</div>
 	
-	<div class="col-md-9"> 
-	<p><?php print render($content['field_description']); ?></p></div>
-  </div>
-  
- </div>
+		
+	</div>
+	<hr class="locations_index">
+</div>
   
 
 

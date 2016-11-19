@@ -344,23 +344,19 @@
 
                         <ul>
 
-                            <li><a href="https://www.facebook.com/GalileosWorld?ref=hl" class="facebook" title="facebook" target="_blank"></a></li>
+                            <li><a href="https://www.facebook.com/UniversityLibraries" class="facebook" title="facebook" target="_blank"></a></li>
 
-                            <li><a href="https://twitter.com/GalileosWorld" class="twitter" title="twitter" target="_blank"></a></li>
+                            <li><a href="https://twitter.com/OU_Libraries" class="twitter" title="twitter" target="_blank"></a></li>
 
-                            <li><a href="http://www.youtube.com/user/OULibraryOverview" class="youtube" title="youtube" target="_blank"></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCvRR9Wy7ECUS0DQbOp2dnbg" class="youtube" title="youtube" target="_blank"></a></li>
 
-                            <li><a href="http://pinterest.com/ouhoscurator/ou-hos-collections" class="pinterest" title="pinterest" target="_blank"></a></li>
+                            <li><a href="https://www.instagram.com/oulibraries/" class="instagram" title="instagram" target="_blank"></a></li>
 
                         </ul>
-						<div style="text-align:center;"><strong><p>#GalileosWorld</p><strong></div>
+						<div style="text-align:center;"><strong><p>#GWreprise</p><strong></div>
                     </div>
 
                 </div>
-				
-				<div class="col-md-2">
-				<div class="anniversary-logo"><a href="http://www.ou.edu/liveon.html" target="_blank"><img src="https://galileo.webdev.lib.ou.edu/sites/all/themes/oulib_galileotheme/images/125_Years_Campaign_Logo_Final_white_small.png"></a></div>
-				</div>
 
             </div>
 
