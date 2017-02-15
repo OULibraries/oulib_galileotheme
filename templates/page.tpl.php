@@ -288,7 +288,7 @@
 
                 <div class="col-md-3" style="padding-bottom: 30px;">
 
-                    <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/images/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
+                    <img src="/sites/all/themes/oulib_galileotheme/images/footerlogo.png" alt="footerLogo" style="float: left; padding-right: 1em;" />
 
                     <a href="http://libraries.ou.edu" target="_blank">University Libraries</a><br />
 
