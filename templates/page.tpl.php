@@ -306,11 +306,13 @@
 
                         <ul>
 
-                            <li><a href="general-contact" title="Contact Us" target="_blank">Contact</a></li>
+                            <li><a href="general-contact" title="Contact Us">Contact</a></li>
 
-                            <li><a href="about-this-site" title="About This Site" target="_blank">About this Site</a></li>
+                            <li><a href="about-this-site" title="About This Site">About this Site</a></li>
 
                             <li><a href="http://www.ou.edu/publicaffairs/WebPolicies/accessstatement.html" title="Accessibility" target="_blank">Accessibility</a></li>
+							
+							<li><a href="https://libraries.ou.edu/jobs" title="Jobs at OU Libraries" target="_blank">Job Opportunities</a></li>
 
                         </ul>
 
@@ -344,7 +346,7 @@
 
                         <ul>
 
-                            <li><a href="https://www.facebook.com/UniversityLibraries" class="facebook" title="facebook" target="_blank"></a></li>
+                            <li><a href="https://www.facebook.com/OULibraries" class="facebook" title="facebook" target="_blank"></a></li>
 
                             <li><a href="https://twitter.com/OU_Libraries" class="twitter" title="twitter" target="_blank"></a></li>
 
